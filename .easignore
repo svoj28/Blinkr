@@ -1,0 +1,27 @@
+# EAS Build uses this file instead of .gitignore when uploading the project.
+# It is the same as .gitignore EXCEPT that .env is uploaded, so cloud builds get your
+# EXPO_PUBLIC_ Supabase keys. (SUPABASE_DB_URL is never bundled into the app itself.)
+
+node_modules/
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+.kotlin/
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+.metro-health-check*
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+.DS_Store
+*.pem
+.env*.local
+*.tsbuildinfo
+example
+/ios
+/android
